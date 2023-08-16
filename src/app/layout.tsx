@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cx(inter.className, 'bg-slate-950 text-slate-100 p-4') }>{children}</body>
+      <body className={cx(inter.className, 'bg-slate-950 text-slate-100 p-4 [&_input]:text-black') }>{children}</body>
     </html>
   )
 }
